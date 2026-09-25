@@ -1,0 +1,41 @@
+{
+  "document_id": "wotc-srd-5.2.1-en-cc-by-4.0",
+  "title": "System Reference Document 5.2.1",
+  "version": "5.2.1",
+  "language": "en",
+  "publisher": "Wizards of the Coast LLC",
+  "license": "Creative Commons Attribution 4.0 International",
+  "license_spdx": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "source_page_url": "https://www.dndbeyond.com/srd",
+  "download_url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",
+  "official_publication_date": "2025-05-01",
+  "retrieved_date": "2026-09-17",
+  "retrieved_at_utc": "2026-09-18T06:13:30Z",
+  "filename": "SRD_CC_v5.2.1.pdf",
+  "size_bytes": 6031375,
+  "sha256": "8974902d109d6e63672d7c490bde9ccf052410503d9cfa768237154fbc5e3d87",
+  "http": {
+    "status": 200,
+    "content_type": "application/pdf",
+    "content_length": 6031375,
+    "etag": "\"393692267005a40d5a194e1707eb9ebb\"",
+    "last_modified": "Thu, 01 May 2025 15:59:02 GMT"
+  },
+  "pdf": {
+    "signature": "%PDF-1.6",
+    "subtype": "PDF/X-4",
+    "pages": 364,
+    "encrypted": false,
+    "javascript": false
+  },
+  "validation": {
+    "pdfinfo_opened": true,
+    "pypdf_strict_opened": true,
+    "first_and_last_page_text_extracted": true,
+    "page_1_rendered_and_visually_checked": true,
+    "eof_marker_present": true,
+    "local_size_matches_http_content_length": true,
+    "checksum_recomputed_after_download": true
+  }
+}

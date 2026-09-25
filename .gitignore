@@ -1,0 +1,7 @@
+# Local scratch and rendered review artifacts
+tmp/
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
