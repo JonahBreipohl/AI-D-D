@@ -13,7 +13,7 @@ This repository currently contains planning artifacts only. The proposed product
 - Use **theater of the mind with explicit zones/range bands**, not a tactical grid.
 - Keep v1 **text-only, AI-DM-only, private, invite-only, and adults-only**.
 - Use a **Teen/PG-13 content ceiling**, pre-session boundaries, and an out-of-band stop control even though the alpha is adults-only.
-- Make every state change deterministic and event-backed. The model may propose bounded actions and rulings but may never write authoritative state.
+- Make every state change deterministic and event-backed. The model may propose typed actions and reference an explicitly accepted bounded ruling, but it may never invent authority or write authoritative state.
 - Personas may change presentation and precommitted challenge selection; they may not secretly fudge rolls or change rules semantics.
 - Cost and latency must include the complete proposal → tool/roll → outcome-narration turn, not only one convenient inference call.
 
@@ -48,6 +48,7 @@ These are the owner-approved Phase 0 product directions. They authorize the rema
 - [P0-05 — synthetic dry-run kit v0.1](docs/phase-0/research/P0-05-dry-run-kit-v0.1.md) — desk-authored template only; not operational or participant evidence and closes no dry-run blocker.
 - [P0-06 — provisional operator baseline v0.2](docs/phase-0/evidence/P0-06-provisional-operator-baseline-v0.2.md) — exact dry-run input; human rules review and a version-matched dry run remain open.
 - [P0-06 — provisional coverage matrix](docs/phase-0/evidence/P0-06-coverage-matrix.md) — Amendment 01 resolves `B-01` through `B-11`; P0-05 evidence and required reviews are still needed before completion.
+- [P0-07 — resolution lanes and authority contract v0.1](docs/phase-0/evidence/P0-07-resolution-lanes-v0.1.md) — desk-authored review draft: deterministic catalog entries, only bounded ruling `AM01-R1`, and unsupported/clarify; acceptance and implementation remain open.
 - [P0-03 Amendment 01 — deterministic baseline](docs/phase-0/evidence/P0-03-amendment-01-proposed.md) — accepted and in force 2026-09-23; it controls any conflict with the base P0-03 text.
 - [Pinned SRD metadata, notice, checksum, and PDF](third_party/srd/) — integrity-verified source package.
 
@@ -56,11 +57,11 @@ These are the owner-approved Phase 0 product directions. They authorize the rema
 | Gate | Status | Why |
 |---|---|---|
 | Phase 0 owner decisions | Complete | On 2026-09-17 the owner approved all recommended defaults in D1–D15 plus the Phase 1B spike and proposed success-gate approach; California, United States is the initial jurisdiction. |
-| Phase 0 evidence and contracts | In progress | P0-02 and the amended P0-03 research contract are complete. Amendment 01 is incorporated into the provisional matrix, operator baseline v0.2, and run pack v0.2. The P0-04 material pack v0.1 and its blank restricted assignment-ledger template are desk-review controls only; `P0-08-pre` v0.1 and the P0-05 dry-run kit v0.1 are review/synthetic drafts only. P0-04/P0-05 remain NO-GO pending human preflight, required reviews, operational dry runs, and real participants; P0-06 remains provisional pending evidence and review. Threat model, contracts, technical ADRs, and independent gate evidence follow. |
+| Phase 0 evidence and contracts | In progress | P0-02 and the amended P0-03 research contract are complete. Amendment 01 is incorporated into the provisional matrix, operator baseline v0.2, and run pack v0.2. P0-07 resolution-lane contract v0.1 is a desk-authored review draft, not an accepted or implemented contract. The P0-04 material pack v0.1 and its blank restricted assignment-ledger template are desk-review controls only; `P0-08-pre` v0.1 and the P0-05 dry-run kit v0.1 are review/synthetic drafts only. P0-04/P0-05 remain NO-GO pending human preflight, required reviews, operational dry runs, and real participants; P0-06 remains provisional pending evidence and review. Threat model, contracts, technical ADRs, and independent gate evidence follow. |
 | Contract freeze | Not started | It depends on the decisions above and on a rules/content coverage matrix. |
 | Phase 1 implementation | Not authorized | No accepted ADRs or reviewed interface contracts exist. |
 | Phase 2 integration | Not authorized | It depends on a verified mechanics spine and model feasibility evidence. |
 
 ## Immediate owner response
 
-The initial owner questions, base P0-03 acceptance, and Amendment 01 acceptance are preserved in the [decision log](docs/phase-0/08-owner-decision-log.md). The immediate work is independent human rules/scene/provenance review, a version-matched operational dry run, and the named-human, exact-value, qualified-review, privacy, safety, and accessibility requirements in the preflight. No recruitment, invitation, interview, or participant session is currently authorized. The later G0 decision remains the authorization boundary for Phase 1 production implementation.
+The owner decisions, including the 2026-09-25 authorization for continued desk-only work and deferral of human research, are preserved in the [decision log](docs/phase-0/08-owner-decision-log.md). The current desk-only path is to harden and advisory-review the [P0-07 resolution-lane contract v0.1](docs/phase-0/evidence/P0-07-resolution-lanes-v0.1.md) as a provisional draft; final acceptance remains blocked on the P0-06/P0-05 evidence chain and required named-human reviews. P0-09 is the next ordered desk-authorable consumer, but any draft prepared before P0-07 acceptance must remain explicitly provisional. Human rules/scene/provenance review, operational dry runs, and fieldwork remain deferred requirements. No recruitment, invitation, screening, interview, prototype session, or participant contact is authorized. The later G0 decision remains the authorization boundary for Phase 1 production implementation.
