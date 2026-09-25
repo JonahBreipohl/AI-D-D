@@ -57,7 +57,10 @@ All factual inputs requested with the decision batch are resolved. No additional
 
 ## Decision batch OD-2026-09-25-01
 
-**Recorded:** 2026-09-25  
-**Owner response:** Authorized the initial Git commit and push, approved continued desk-only Phase 0 work, and directed that human research be deferred for now.  
-**Scope:** Source-control publication of the existing planning baseline and continued work on artifacts that can be drafted, checked, and reviewed without recruiting, contacting, scheduling, or observing participants.  
+**Recorded:** 2026-09-25
+
+**Owner response:** Authorized the initial Git commit and push, approved continued desk-only Phase 0 work, and directed that human research be deferred for now.
+
+**Scope:** Source-control publication of the existing planning baseline and continued work on artifacts that can be drafted, checked, and reviewed without recruiting, contacting, scheduling, or observing participants.
+
 **Effect:** The planning baseline may be maintained in the canonical GitHub repository, and desk-authorable Phase 0 tasks may continue in dependency order. P0-04 and P0-05 fieldwork remain `NO-GO`; no invitation, recruitment, screening, interview, prototype session, or participant evidence is authorized. This decision does not satisfy required human or qualified reviews, close G0, or authorize Phase 1 production implementation.
