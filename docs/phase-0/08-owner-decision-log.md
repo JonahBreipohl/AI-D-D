@@ -54,3 +54,10 @@ All factual inputs requested with the decision batch are resolved. No additional
 **Effect:** Amendment 01 is accepted and in force as of 2026-09-23. The accepted base P0-03 specification plus Amendment 01 is the active P0-05/P0-06 research contract, and Amendment 01 controls wherever the two conflict. The decision resolves the eleven P0-03 contract choices but does not itself incorporate them into P0-06 or the run pack, clear any fielding preflight, authorize recruitment or human research, complete P0-06, open G0, or authorize Phase 1 production implementation.
 
 **Downstream record, 2026-09-23:** The accepted values were subsequently incorporated into the [provisional P0-06 matrix](evidence/P0-06-coverage-matrix.md), [operator baseline v0.2](evidence/P0-06-provisional-operator-baseline-v0.2.md), and [P0-05 run pack v0.2](research/P0-05-run-pack-v0.2.md). Those drafts require independent human review, operational preflight, and a version-matched dry run; their existence does not authorize participant contact or change G0.
+
+## Decision batch OD-2026-09-25-01
+
+**Recorded:** 2026-09-25  
+**Owner response:** Authorized the initial Git commit and push, approved continued desk-only Phase 0 work, and directed that human research be deferred for now.  
+**Scope:** Source-control publication of the existing planning baseline and continued work on artifacts that can be drafted, checked, and reviewed without recruiting, contacting, scheduling, or observing participants.  
+**Effect:** The planning baseline may be maintained in the canonical GitHub repository, and desk-authorable Phase 0 tasks may continue in dependency order. P0-04 and P0-05 fieldwork remain `NO-GO`; no invitation, recruitment, screening, interview, prototype session, or participant evidence is authorized. This decision does not satisfy required human or qualified reviews, close G0, or authorize Phase 1 production implementation.
