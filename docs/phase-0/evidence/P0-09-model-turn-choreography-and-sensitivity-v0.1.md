@@ -479,7 +479,7 @@ Required adversarial fixtures for P0-13/P1B include sequential and simultaneous 
 
 | Consumer | This draft supplies | Still required |
 |---|---|---|
-| P0-10 threat/data-flow model | Call/stage trust boundaries, provider/cache/telemetry data categories, cancellation and deletion obligations | Threat analysis, mitigations, provider/legal review; this draft does not solve P0-10. |
+| [P0-10 threat/data-flow model](P0-10-data-flow-and-threat-model-v0.1.md) | Call/stage trust boundaries, provider/cache/telemetry data categories, cancellation and deletion obligations | Threat analysis, mitigations, provider/legal review; this draft does not solve P0-10. |
 | P0-11 dice trust | Correlated random-stage identities and uncertain-delivery behavior | Cryptographic/audit claim and verifier; no proof is claimed here. |
 | P0-12 contracts | Stage IDs, attempt taxonomy, usage/timing fields, fallback reason families | Versioned schemas, compatibility rules, fixtures, and consumer tests. |
 | P0-13 test strategy | Choreography fixtures, invariants, full-trace denominators, cost/latency scenarios | Corpus, severity rubric, property/adversarial tests, and independent review. |

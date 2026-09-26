@@ -64,3 +64,13 @@ All factual inputs requested with the decision batch are resolved. No additional
 **Scope:** Source-control publication of the existing planning baseline and continued work on artifacts that can be drafted, checked, and reviewed without recruiting, contacting, scheduling, or observing participants.
 
 **Effect:** The planning baseline may be maintained in the canonical GitHub repository, and desk-authorable Phase 0 tasks may continue in dependency order. P0-04 and P0-05 fieldwork remain `NO-GO`; no invitation, recruitment, screening, interview, prototype session, or participant evidence is authorized. This decision does not satisfy required human or qualified reviews, close G0, or authorize Phase 1 production implementation.
+
+## Decision batch OD-2026-09-25-02
+
+**Recorded:** 2026-09-25
+
+**Owner response:** “Proceed with provisional P0-10.”
+
+**Scope:** Prepare and advisory-review a desk-only visibility- and safety-aware data-flow diagram and threat-model draft while preserving the open P0-07 dependency and every existing provider, implementation, human-research, and gate boundary.
+
+**Effect:** P0-10 v0.1 may be drafted, checked, cross-linked, committed, and pushed as a provisional specification. This is authorization to prepare the artifact, not acceptance of P0-07 or P0-10, selection of a provider/runtime, proof of a mitigation, legal advice, participant authorization, G0 approval, or production implementation authorization. P0-11 and later tasks are not started by this decision.
