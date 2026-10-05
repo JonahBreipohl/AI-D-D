@@ -585,7 +585,7 @@ Open decisions before any provider-enabled integration additionally include the 
 
 | Consumer | This draft supplies | Still required |
 |---|---|---|
-| P0-11 dice trust | Local authority/adversary assumptions, stage/result identity, uncertainty behavior, and limits of local audit | Exact audit/commitment claim and independent verifier; no cryptographic claim here. |
+| [P0-11 dice trust](P0-11-dice-trust-and-verification-v0.1.md) | Local authority/adversary assumptions, stage/result identity, uncertainty behavior, and limits of local audit | P0-11 v0.1 now proposes the exact claim/protocol/verifier but remains dependency-open, unaccepted, and unimplemented; no cryptographic claim is imported back into P0-10. |
 | P0-12 contracts | Actor/session/auth/version/key/epoch fields, data/visibility classes, control/error states, provider/configuration and telemetry boundaries | Versioned command/event/projection/AI/error/telemetry/export/delete/report schemas and compatibility rules. |
 | P0-12A runtime/persistence ADR | Trust zones, local stores/derivatives, transaction/delete/restore/export and secret requirements | Technology comparison, migration, rollback, OS-specific evidence; no runtime is selected here. |
 | P0-13 test strategy | `DF-INV-*`, `T*`, and `P010-*` requirements plus critical-severity defaults | Requirements-to-test map, harness/corpora, severity rubric, ownership, executed independent results. |

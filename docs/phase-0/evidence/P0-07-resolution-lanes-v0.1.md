@@ -162,7 +162,7 @@ A difficulty label, range, “appropriate DC,” analogy, facilitator judgment, 
 | `PUBLIC_AFTER_APPLY` | Revealed only after the authoritative result/state event exists | Success/failure, damage application, public state delta, triggered fact |
 | `AUDIT_RESTRICTED` | Retained for authorized correction/provenance/security review and never automatically disclosed during play | Private commitment payload whose trigger never occurs; operational defect detail that would leak hidden state |
 
-The commitment mechanism in this document is a logical immutability requirement, not a cryptographic claim. P0-11 owns the dice/commitment protocol recommendation; P0-10 and P0-12 own trust boundaries, storage, projections, and concrete schemas.
+The commitment mechanism in this document is a logical immutability requirement, not a cryptographic claim. [P0-11 v0.1](P0-11-dice-trust-and-verification-v0.1.md) provisionally owns the dice/commitment protocol recommendation; P0-10 and P0-12 own trust boundaries, storage, projections, and concrete schemas.
 
 ### 5.2 Exact policy for v0.1
 
@@ -439,7 +439,7 @@ The “one retry” limit applies to the A2 structured proposal, not to player c
 | A6 / P0-13 tests | Golden, negative, property/state-machine, replay, visibility, correction, injection, and fallback cases | This contract plus P0-06/P0-10/P0-12 | Treat a document example as implementation proof or lower a severity gate |
 | A7 / provenance | Rules/content classifications and contamination controls | Source/content objects | Treat `AM01-R1` as SRD text or admit unknown provenance |
 | A8 / P0-09 economics | One correlated full-logical-resolution ledger covering parent proposal, child/tool/random stages, the one proposal repair, fallback, cache/stream timing, latency, and cost without raw/private content | Correlation/usage metadata from A2/A3 and the stage graph here | Count a child/random stage as a separate player turn, omit retry/fallback cost, or copy private gameplay text into telemetry |
-| P0-11 dice protocol | Verification/commitment recommendation and independent-check method | Logical commitment and visibility requirements here | Claim this v0.1 token language is already cryptographic proof |
+| [P0-11 dice protocol](P0-11-dice-trust-and-verification-v0.1.md) | Verification/commitment recommendation and independent-check method | Logical commitment and visibility requirements here | Claim this v0.1 token language or the provisional P0-11 proposal is accepted cryptographic proof |
 
 Direct downstream consumers are P0-09, P0-10, P0-12, and P0-13. P0-11 is an indirect consumer through P0-10 and consumes the logical commitment/visibility requirements without changing this lane authority. P2-03 later consumes the persona invariance boundary. Any downstream contract that requires a second bounded ruling must stop and request a versioned P0-03/P0-07 authority change.
 

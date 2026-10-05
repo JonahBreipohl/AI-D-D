@@ -8,7 +8,7 @@ The owner approved all recommended product defaults on 2026-09-17. Formal ADR do
 | ADR-0002 | Adventure source and asset provenance | Owner-approved; ADR pending | D2 |
 | ADR-0003 | Rules baseline and coverage policy | Owner-approved; ADR pending | D3 and D11 |
 | ADR-0004 | Fairness, rulings, Transparent Guide persona, correction consent, disputes, and rewind | Owner-approved; ADR pending | D10 |
-| ADR-0005 | Dice commitment and verification protocol | Proposed | Authority topology and fairness claim |
+| ADR-0005 | [Dice commitment and verification protocol](../phase-0/evidence/P0-11-dice-trust-and-verification-v0.1.md) | Proposed by P0-11 v0.1; not accepted | P0-10 acceptance/reconciliation, exact contracts/evidence, authority topology, and qualified trust claim |
 | ADR-0006 | Authoritative event model, correction, retention, and migration | Proposed | Privacy/data-retention policy |
 | ADR-0007 | Model provider boundary, data handling, provisional budget, and fallback | Provisionally owner-approved; ADR pending | D4 and D13; budget amended/finalized at P1B-05 |
 | ADR-0008 | Session authority and initial hosting topology | Owner-approved direction; ADR pending | D8a |
